@@ -6,6 +6,8 @@ const debug = Debug()
 
 const array:any[] = []
 
+debug('the steps', steps)
+
 for (const object in steps) {
     array.push(steps[object])
 }
