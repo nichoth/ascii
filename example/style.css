@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Courier; src: url('courier.ttf');
+} 
+
+p#text {
+    font-size: 12px;
+    font-family: Courier;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 750px){
+    p#text {font-size: 8px;}
+}
